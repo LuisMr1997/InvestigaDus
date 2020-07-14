@@ -1,0 +1,418 @@
+es:
+  decidim:
+    menu:
+       assemblies: Proyectos
+       help: Recursos
+       consultations: Consultas
+       processes: Propuestas
+       initiatives: Ideas Colectivas     
+
+modelo activo :
+    atributos :
+      montaje :
+        area_id : Área
+        tipo_ensamblaje : Tipo de proyecto
+        assembly_type_other : Otro tipo de proyecto
+        banner_image : Imagen de banner
+        fecha de cierre : Fecha de cierre
+        Closing_date_reason : Razón del fecha de cierre
+        composición : Composición
+        copy_categories : Copiar categorías
+        copy_components : Copiar componentes
+        copy_features : Copiar funcionalidades
+        created_by : Creado por
+        created_by_other : Creado por otra
+        creation_date : Fecha de creación
+        decidim_area_id : Área
+        decidim_assemblies_type_id : Tipo de proyecto
+        decidim_scope_id : Ámbito
+        descripción : Descripción
+        grupo_desarrollador : Grupo promotor
+        dominio : Dominio
+        Duración : Duración
+        facebook : Facebook
+        github : GitHub
+        hashtag : Hashtag
+        hero_image : Imagen de portada
+        included_at : Incluido en
+        instagram : Instagram
+        organización_ interna : Organización interna
+        es_transparente : Es transparente
+        área_ local : Área de organización
+        meta_scope : Metadatos de ámbito
+        parent_id : proyecto principal
+        participatory_processes_ids : Procesos participativos relacionados
+        participatory_scope : Que se decida
+        participatory_structure : Como Se decidirá
+        private_space : Espacio privado
+        promovido : Destacado
+        published_at : Publicado el
+        propósito_de_acción : Propósito del acción
+        scope_id : Ámbito
+        scopes_enabled : Ámbitos habilitados
+        short_description : breve Descripción
+        show_statistics : Mostrar estadísticas
+        babosa : Texto corto de URL
+        características_ especiales : Características especiales
+        subtítulo : Subtítulo
+        objetivo : Quién participa
+        título : Título
+        twitter : Twitter
+        youtube : YouTube
+      proyecto_miembro :
+        cumpleaños : Cumpleaños
+        lugar de nacimiento : Lugar de nacimiento
+        fecha_cendida : Fecha de cese
+        designación_fecha : Fecha de designación
+        designation_mode : Modo de designación
+        full_name : Nombre completo
+        género : Género
+        puesto : Posición
+      ensamblado_usuario_role :
+        correo electrónico : Correo electrónico
+        nombre : Nombre
+        papel : Rol de participante
+  registro activo :
+    modelos :
+      decidim / proyecto :
+        uno : proyecto
+        otro : proyectos
+      decidim / proyecto_miembro :
+        uno : Miembro del proyecto
+        otro : Miembros del proyecto
+      decidim / assembly_user_role :
+        uno : Rol de participante del proyecto
+        otro : Roles de participante del proyecto
+  decidim :
+    administración :
+      comportamiento :
+        new_assembly : Nueva proyecto
+        new_assembly_type : Nuevo tipo de proyecto
+      Ensambles :
+        crear :
+          error : Se ha producido un error al crear una nueva proyecto.
+          éxito : proyecto creada correctamente.
+        editar :
+          actualización : Actualizar
+        índice :
+          not_published : No Publicada
+          privado : Privado
+          público : Público
+          publicado : Publicado
+        nuevo :
+          crear : Crear
+          título : Nueva proyecto
+        actualización :
+          error : Se ha producido un error al actualizar esta proyecto.
+          éxito : La proyecto se ha actualizado correctamente.
+      montajes_copias :
+        crear :
+          error : Se ha producido un error al duplicar esta proyecto.
+          éxito : proyecto duplicada correctamente.
+      ensamblados_tipos :
+        crear :
+          error : Se ha producido un error al crear un nuevo tipo de proyecto.
+          éxito : Tipo de proyecto creado correctamente.
+        destruir :
+          éxito : Tipo de proyecto eliminado correctamente.
+        nuevo :
+          crear : Crear
+          título : Nuevo tipo de proyecto
+        actualización :
+          error : Hubo un problema al actualizar este tipo de proyecto.
+          éxito : Tipo de proyecto actualizada correctamente.
+      montaje_copias :
+        nuevo :
+          copia : Copiar
+          seleccione : Selecciona qué datos quieres duplicar
+          título : Duplicar proyecto
+      ensamblado_miembros :
+        crear :
+          error : Se ha producido un error al agregar un miembro para esta proyecto.
+          éxito : Miembro creado correctomene para esta proyecto.
+        destruir :
+          éxito : Miembro eliminado correctamente para esta proyecto.
+        editar :
+          título : Actualizar miembro del proyecto.
+          actualización : Actualizar
+        índice :
+          assembly_members_title : Miembros del proyecto
+        nuevo :
+          crear : Crear
+          título : Nuevo miembro del proyecto.
+        actualización :
+          error : Se ha producido un error al actualizar el miembro para esta proyecto.
+          éxito : Miembro actualizado correctamente para esta proyecto.
+      ensamblado_publicaciones :
+        crear :
+          error : Se ha producido un error al publicar esta proyecto.
+          éxito : proyecto publicada correctamente.
+        destruir :
+          error : Se ha producido un error al despublicar esta proyecto.
+          éxito : proyecto despublicada correctamente.
+      ensamblaje_roles_usuario :
+        crear :
+          error : Se ha producido un error al agregar una administrador para esta proyecto.
+          Éxito : administrador añadida correctamente a esta proyecto.
+        destruir :
+          éxito : administrador eliminada correctamente de esta proyecto.
+        editar :
+          título : Actualizar administrador del proyecto.
+          actualización : Actualizar
+        índice :
+          assembly_admins_title : administradors del proyecto
+        nuevo :
+          crear : Crear
+          título : Nueva administrador del proyecto.
+        actualización :
+          error : Se ha producido un error al actualizar una administrador para esta proyecto.
+          éxito : administrador actualizada correctamente para esta proyecto.
+      menu :
+        proyectos : proyectos
+        assemblies_submenu :
+          proyecto_admins : administrador del proyecto
+          ensamblado_miembros : Miembros
+          Archivos adjuntos : Carpetas
+          archivos adjuntos : Archivos
+          archivos adjuntos : Adjuntos
+          categorías : Categorías
+          componentes : Componentes
+          info : Información
+          moderaciones : Moderaciones
+          private_users : Participantes privados
+        ensamblados_tipos : Tipos de proyecto
+      modelos :
+        ensamblados_tipos :
+          campos :
+            created_at : Fecha de creación
+            título : Título
+        montaje :
+          campos :
+            created_at : Fecha de creación
+            privado : Privada
+            promovido : Destacada
+            publicado : Publicada
+            título : Título
+          nombre : proyecto
+        proyecto_miembro :
+          campos :
+            fecha_cendida : Fecha de cese
+            designación_fecha : Fecha de designación
+            full_name : Nombre
+            puesto : Posición
+          nombre : Miembro
+          puestos :
+            otro : Otro
+            presidente : presidenta
+            secretaria : secretaria
+            vicepresidente : vicepresidenta
+        ensamblado_usuario_role :
+          campos :
+            correo electrónico : Correo electrónico
+            nombre : Nombre
+            papel : Rol
+          nombre : administrador del proyecto
+          roles :
+            admin : administrador
+            colaborador : Colaboradora
+            moderador : Moderadora
+            evaluador : Evaluadora
+      títulos :
+        proyectos : proyectos
+        ensamblados_tipos : Tipo de proyecto
+    admin_log :
+      montaje :
+        crear : " % {user_name} creó la proyecto% {resource_name} "
+        publicar : " % {user_name} publicó la proyecto% {resource_name} "
+        no publicado : " % {user_name} despublicó la proyecto% {resource_name} "
+        actualización : " % {user_name} actualizó la proyecto% {resource_name} "
+      proyecto_miembro :
+        crear : " % {user_name} creado el miembro% {resource_name} en la proyecto% {space_name} "
+        eliminar : " % {user_name} eliminó% {resource_name} del proyecto% {space_name} "
+        actualización : " % {user_name} actualizó el miembro% {resource_name} del proyecto% {space_name} "
+      tipo_ensamblaje :
+        crear : " % {user_name} creó el tipo de proyecto% {resource_name} "
+        eliminar : " % {user_name} eliminó al miembro% {resource_name} del tipo de proyecto% {space_name} "
+        publicar : " % {user_name} publicó el tipo de proyecto% {resource_name} "
+        no publicado : " % {user_name} despublicó el tipo de proyecto% {resource_name} "
+        actualización : " % {user_name} actualizó el tipo de proyecto% {resource_name} "
+      ensamblado_usuario_role :
+        crear : " % {user_name} invitó% {resource_name} a la proyecto% {space_name} "
+        eliminar : " % {user_name} eliminó a la participante% {resource_name} del proyecto% {space_name} "
+        actualización : " % {user_name} cambia el rol de% {resource_name} en la proyecto% {space_name} "
+    proyectos :
+      admin :
+        proyectos :
+          forma :
+            Duración : Duración
+            duración_ayuda : Si la duración de esta proyecto es limitada, selecciona la fecha de finalización. De lo contrario, aparentemente como indefinida.
+            filtros : Filtros
+            imágenes : Imágenes
+            included_at_help : Selecciona la fecha en que se agregará esta proyecto a Decidim. No tiene tiene que ser la misma que la fecha de creación.
+            metadatos : Metadatos
+            otro : Otro
+            select_a_created_by : Selecciona una creadara
+            select_an_area : Seleccione un Área
+            select_an_assembly_type : Selecciona un tipo de proyecto
+            select_parent_assembly : Selecciona una proyecto principal
+            slug_help : ' Los textos cortos de URL se utilizan para generar las URL que apuntan a esta proyecto. Sólo acepta letras, números y guiones, y debe comenzar con una letra. Ejemplo:% {url} '
+            social_handlers : Social
+            título : Información general
+            visbility : Visibilidad
+        ensamblados_tipos :
+          forma :
+            título : Título
+        montaje_copias :
+          forma :
+            slug_help : ' Los textos cortos de URL se utilizan para generar las URL que apuntan a esta proyecto. Sólo acepta letras, números y guiones, y debe comenzar con una letra. Ejemplo:% {url} '
+        ensamblado_miembros :
+          forma :
+            existente_usuario : Participante existente
+            non_user : No participante
+            select_a_position : Selecciona una posición
+            select_user : Selecciona una participante
+            tipo_usuario : Tipo de participante
+          índice :
+            filtro :
+              todos : Todas
+              cesado : Cesada
+              not_ceased : Sin cesada
+            filter_by : Filtra por
+            buscar : Buscar
+        bloques_contenido :
+          destacados_conjuntos :
+            max_results : Cantidad máxima de elementos para mostrar
+      ensamblado_miembros :
+        índice :
+          miembros : Miembros
+      ensamblaje_tipos :
+        comisión : Comisión
+        consultivo_consejero : Consultiva / Asesora
+        ejecutivo : Ejecutiva
+        gobierno : Gobierno
+        otros : Otros
+        participativo : participativa
+        working_group : Grupo de Trabajo
+      bloques_contenido :
+        destacados_conjuntos :
+          nombre : proyectos destacadas
+      created_by :
+        ayuntamiento : Ayuntamiento
+        otros : Otros
+        público : Público
+      filtro :
+        todos : Todos los tipos
+        comisión : Comisión
+        consultivo_consejero : Consultiva / Asesora
+        ejecutivo : Ejecutivo
+        gobierno : Gobierno
+        ayuda : ' Muestra: '
+        otros : Otros
+        participativo : participativo
+        working_group : Grupo de Trabajo
+      índice :
+        Título : proyectos
+      última_actividad :
+        new_assembly : Nueva proyecto
+      páginas :
+        casa :
+          destacados_conjuntos :
+            proyectos activas : proyectos activas
+            see_all_assemblies : Ver todas las proyectos
+        user_profile :
+          miembro_de :
+            member_of : Miembro de
+      mostrar :
+        área : Área
+        tipo_ensamblaje : Tipo de proyectos
+        niños : proyectos
+        fecha de cierre : Fecha de finalización
+        composición : Composición
+        created_by : Creado por
+        creation_date : Fecha de creación
+        grupo_desarrollador : Grupo promotor
+        Duración : Duración
+        included_at : Incluido en
+        indefinite_duration : Indefinida
+        organización_ interna : Organización interna
+        es_transparente :
+          ' falso ' : opaca
+          ' verdadero ' : transparente
+        área_ local : Área de organización
+        participatory_scope : Que se decida
+        participatory_structure : Como Se decidirá
+        private_space : Esta es una proyecto privada
+        propósito_de_acción : Propósito del acción
+        read_less : Leer menos
+        read_more : Leer más
+        procesos_participativos_ relacionados : Procesos participativos relacionados
+        alcance : Ámbito
+        social_networks : sociales Redes
+        objetivo : Quién participa
+      estadísticas :
+        answers_count : Respuestas
+        proyectos_cuenta : proyectos
+        comments_count : Comentarios
+        debates_count : Debates
+        endorsements_count : Adhesiones
+        titular : Actividad
+        Meetings_count : Encuentros
+        orders_count : Apoyos
+        pages_count : Páginas
+        proyectos_cuenta : Proyectos
+        proposals_count : Propuestas
+        resultados_cuenta : Resultados
+        survey_count : Encuestas
+        users_count : Participantes
+        votes_count : Apoyos
+    ensamblado_miembros :
+      proyecto_miembro :
+        designada_en : Designado en
+      índice :
+        título : Miembros
+    ayuda :
+      espacios_participativos :
+        Ensambles :
+          contextual: "<p> Una <strong> proyecto </strong> es un grupo formado por miembros de una organización que se reúne específicamente para tomar decisiones sobre un ámbito o área específica del misma. </p> <p> Las proyectos <Son eventos abiertos privados y otros son abiertos. Si son abiertos se pueden participar en ellos (por ejemplo: asistiendo si el aforo lo permite, añadiendo puntos al orden del día, o comentando las propuestas y decisiones tomadas por dicho órgano). < / p> <p> Ejemplos: Una proyecto general (que se reúne una vez al año para definir las líneas principales de acción del organización así como para acompañar a sus órganos ejecutivos por votación),un consejo asesor de igualdad (que se reúne cada dos meses para realizar propuestas de cómo mejorar las relaciones de género en la organización), una comisión de evaluación (que se reúne cada mes para realizar el seguimiento de un proceso) o un organismo de garantías (que recoge las incidencias, abusos o propuestas de mejora de los procedimientos de toma de decisiones) son todos ejemplos de proyectos. </p> \ n "
+          página: "<p> Una <strong> proyecto </strong> es un grupo formado por miembros de una organización que se reúne específicamente para tomar decisiones sobre un ámbito o área específica del misma. </p> <p> Las proyectos <Son eventos abiertos privados y otros son abiertos. Si son abiertos se pueden participar en ellos (por ejemplo: asistiendo si el aforo lo permite, añadiendo puntos al orden del día, o comentando las propuestas y decisiones tomadas por dicho órgano). < / p> <p> Ejemplos: Una proyecto general (que se reúne una vez al año para definir las líneas principales de acción del organización así como para acompañar a sus órganos ejecutivos por votación),un consejo asesor de igualdad (que se reúne cada dos meses para realizar propuestas de cómo mejorar las relaciones de género en la organización), una comisión de evaluación (que se reúne cada mes para realizar el seguimiento de un proceso) o un organismo de garantías (que recoge las incidencias, abusos o propuestas de mejora de los procedimientos de toma de decisiones) son todos ejemplos de proyectos. </p> \ n "
+          título : ' ¿Qué hijo las proyectos? '
+    log :
+      value_types :
+        montaje_presentador :
+          not_found : ' No se encontró la proyecto en la base de datos (ID:% {id}) '
+        Assembly_type_presenter :
+          not_found : ' El tipo de proyecto no se encontró en la base de datos (ID:% {id}) '
+    menu :
+      proyectos : proyectos
+    métricas :
+      proyectos :
+        descripción : Número de proyectos creadas
+        objeto : proyectos
+        Título : proyectos
+  errores :
+    mensajes :
+      cannot_be_blank : no puede estar en blanco
+  diseños :
+    decidim :
+      proyectos :
+        montaje :
+          more_info : Más información
+          take_part : Participa
+        índice :
+          niños : ' proyectos: '
+          organizational_chart : Organigrama
+          proyectos promovidas : proyectos destacadas
+          reset_chart : Restablecer
+        order_by_assemblies :
+          proyectos :
+            uno : " % {count} proyectos "
+            otro : " % {count} proyectos "
+        montaje_ promocionado :
+          more_info : Más información
+          take_part : Participa
+      montaje_navegación :
+        assembly_member_menu_item : Miembros
+        conjunto_menú_item : La proyecto
+      proyecto_widgets :
+        mostrar :
+          take_part : Participa    
